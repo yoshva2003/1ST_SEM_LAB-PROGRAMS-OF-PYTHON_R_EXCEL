@@ -1,0 +1,6 @@
+cat("enter the lenght:")
+lenght=as.numeric(readLines(n=1))
+cat("enter the width:")
+width=as.numeric(readLines(n=1))
+perimeter<-(2*lenght+width)
+cat("the perimeter of rectangle is:",perimeter)

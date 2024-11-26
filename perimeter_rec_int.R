@@ -1,0 +1,6 @@
+cat("Enter the Length of Rectangle:")
+l=as.numeric(readLines(n=1))
+cat("Enter the Width of Rectangle: ")
+w=as.numeric(readLines(n=1))
+perimeter=2*(l+w)
+cat("The Perimeter of Rectangle is: ",perimeter)

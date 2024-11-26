@@ -1,0 +1,6 @@
+cat("Enter the Numeric values separated by space: \n")
+values=scan()
+sum_values=sum(values)
+avg_values=mean(values)
+cat("The sum of the vectors elements is:",sum_values,"\n")
+cat("The averages of the vectors elements is:",avg_values,"\n")
